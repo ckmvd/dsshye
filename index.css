@@ -1,0 +1,57 @@
+@charset "utf-8";
+/*重置样式*/
+*{margin:0;padding:0;}
+ul,ol,li{list-style:none;}
+b,strong{font-weight:normal;}
+em,i{font-style:normal;}
+a,u{text-decoration: none;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal;}
+input{outline:none;}/*文本聚焦时去掉蓝色边框*/
+img{border:0;display:block;}
+.clear_fix:after{content:".";clear:both;height:0;overflow:hidden;display:block;visibility: hidden;}
+
+.topWrap_con,.logo_con,.nav_con,.banner_con{width:1191px;margin:0 auto;}
+/*topWrap*/
+#topWrap{background:#eee;border-bottom:1px solid #e5e5e5;}
+.topWrap_con{height:25px;}
+.link_show{width:740px;height:21px;float:right;padding-top:4px;}
+.link_show a{float:left;height:16px;font-size:12px;line-height:16px;text-align:center;position:relative;}
+.link_show a em{display:block;width:7px;height:4px;background:url(../images/info_03.jpg) no-repeat;position:absolute;}
+.link_show a i{display:block;width:10px;height:14px;background:url(../images/bg2.png) no-repeat right -13px;position:absolute;}
+
+.link_show .a0{color:#ff6600;}
+.link_show .a1{margin-right:13px;}
+.link_show .a2{margin-right:16px;}
+.link_show .a3{width:100px;border-left:1px solid #d5d5d5;color:#666;}
+.link_show .a3 em{right:10px;top:6px;}
+.link_show .a4{width:115px;border-left:1px solid #d5d5d5;color:#666;}
+.link_show .a4 em{right:10px;top:6px;}
+.link_show .a4 i{left:15px;top:1px;}
+.link_show .a5{width:90px;color:#333;border-left:1px solid #d5d5d5;}
+.link_show .a7{width:154px;border:solid #d5d5d5;border-width:0 1px;}
+.link_show .a7 b{display:block;width:124px;height:16px;background:url(../images/bg2.png) no-repeat -317px -64px;position:absolute;left:15px;}
+
+/*logo*/
+.logo_con{height:77px;}
+.logo_con_l{width:422px;height:61px;padding-top:16px;float:left;}
+.search_box{width:339px;height:61px;float:left;margin-left:120px;padding-top:16px;}
+.search_box form{width:339px;height:30px;}
+.search_box form input{border:0;float:left;}
+.search_box form .txt{width:272px;height:26px;border:2px solid #d5d5d5;font-size:12px;color:#666;border-right:0;}
+.search_box form .btn{width:65px;height:30px;background:#444;color:#fff;}
+.key_word span{font-size:12px;color:#d5d5d5;}
+.key_word em{font-size:12px;color:#888;cursor:pointer;}
+
+.car{width:80px;height:34px;background:url(../images/bg2.png) no-repeat left -64px;float:left;margin:20px 0 0 184px;font-size:12px;color:#666;line-height:34px;padding-left:46px;}
+.car span{color:#f00;font-weight:900;padding:0 5px;}
+
+/*nav*/
+#nav{background:#a21f25}
+.nav_con{height:34px;background:#b9363d}
+
+.nav_show{width:200px;height:34px;background:orange;text-align:center;line-height:34px;color:#fff;position:relative;}
+.select_nav{width:200px;height:385px;background:rgba(0,0,0,0.7);position:absolute;left:0;top:34px;z-index:10;}
+/*banner*/
+#banner{background:#ccc;overflow:hidden;}
+.banner_con{height:385px;position:relative;}
+.banner_con img{position:absolute;left:50%;margin-left:-800px;}
